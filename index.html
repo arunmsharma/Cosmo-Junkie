@@ -5,8 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmo Junkie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav class="site-nav grid">
+        <h1>Cosmo Junkie</h1>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="welcome" class="grid">
+        <div class="welcome-text">
+            <h2>Space Enthusiast <br> & JavaScript Developer</h2>
+            <p class="leading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias esse labore.</p>
+            <a href="#portfolio" class="button">View my work</a>
+        </div>
+        <div class="welcome-img">
+            <img src="images/banner_image.jpeg" alt="Pic of Planet">
+        </div>
+    </section>
+    <section id="portfolio">
+        <h3>Some of my Projects</h3>
+        <div class="projects grid">
+            <a href="">
+                <img src="images/Project_1.jpeg" alt="Saturn image">
+                <h4>Santy Saturn</h4>
+            </a>
+            <a href="">
+                <img src="images/Project_2.jpeg" alt="Universe">
+                <h4>Big Bang Thoery</h4>
+            </a>
+            <a href="">
+                <img src="images/Project_3.jpeg" alt="little Pluto">
+                <h4>Little Pluto</h4>
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        <h3>Thinks I Can Do</h3>
+        <ul class="grid">
+            <li>
+                <img src="images/comet_1.png" alt="">
+                <h4>JavaScript</h4>
+            </li>
+            <li>
+                <img src="images/comet_2.png" alt="">
+                <h4>React</h4>
+            </li>
+            <li>
+                <img src="images/comet_3.png" alt="">
+                <h4>Firebase</h4>
+            </li>
+            <li>
+                <img src="images/comet_4.png" alt="">
+                <h4>Java</h4>
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h3>
+            Get in Touch
+        </h3>
+        <p class="leading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+        <form action="">
+            <input type="text" placeholder="NAME">
+            <input type="email" name="" id="" placeholder="EMAIL">
+            <Textarea placeholder="YOUR MESSAGE"></Textarea>
+            <button class="button">Send Flare</button>
+        </form>
+    </section>
+    <footer>
+        <div class="grid">
+            <p class="copyright">Copyright 2020 Cosmo Junkie</p>
+            <ul class="Social">
+                <li><a href=""><img src="images/icon_fb.svg" alt="facebook"></a></li>
+                <li><a href=""><img src="images/icon_tw.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
